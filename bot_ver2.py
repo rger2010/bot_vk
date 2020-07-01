@@ -10,7 +10,7 @@ import vk_api #работа с апи вк
 import re #для работы с регулярными выражениями
 
 from pyowm import OWM #работа с апи сайта https://openweathermap.org/
-owm = OWM('be0c08d2ae7d36596311e3e2367a03cb')  
+owm = OWM('key')  
 
 #подключение к группе ВК
 vk_session = vk_api.VkApi(token='d123dfc1d0946ba58a7549c5ac576a0a7bad2636ab3d84b5a0ba1c1ea49d0f3b5a0103ab3bfd62c414a60')
